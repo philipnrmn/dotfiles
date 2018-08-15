@@ -1,0 +1,24 @@
+[submodule "vim/pack/plugins/start/vim-go"]
+	path = vim/pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "vim/pack/plugins/start/vim-distinguished"]
+	path = vim/pack/plugins/start/vim-distinguished
+	url = https://github.com/Lokaltog/vim-distinguished
+[submodule "vim/pack/plugins/start/vim-fugitive"]
+	path = vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/pack/plugins/start/vim-gitgutter"]
+	path = vim/pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/pack/plugins/opt/nerdtree"]
+	path = vim/pack/plugins/opt/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/pack/plugins/start/minibufexpl.vim"]
+	path = vim/pack/plugins/start/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim
+[submodule "vim/pack/plugins/opt/vim-fireplace"]
+	path = vim/pack/plugins/opt/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace
+[submodule "vim/pack/plugins/start/editorconfig-vim"]
+	path = vim/pack/plugins/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
