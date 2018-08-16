@@ -1,5 +1,6 @@
 set nocompatible                                 " be iMproved, required
 filetype off                                     " required
+filetype plugin on                               " plugins though
 
 set wildmenu
 set wildignore+=*.swp,*.so,*.zip
