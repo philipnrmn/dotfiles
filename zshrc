@@ -17,4 +17,4 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$HOME/bin:$GOBIN:$PATH
 
-source .secrets
+source $HOME/.secrets
