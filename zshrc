@@ -21,4 +21,7 @@ export PATH=$HOME/bin:$GOBIN:$PATH
 # avoid complaints with tmux + vim
 export TERM=screen-256color
 
+# perl-style regex <3
+alias grep="grep -P"
+
 source $HOME/.secrets
