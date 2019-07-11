@@ -27,6 +27,7 @@ set titleold=                                    " avoid 'Thanks for flying Vim'
 set shortmess=atI                                " avoid 'Hit ENTER to continue'
 
 set tabstop=2 shiftwidth=2 expandtab             " fight me
+set smartindent
 
 syntax on
 colorscheme distinguished
