@@ -13,6 +13,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+bindkey '^R' history-incremental-search-backward
+
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$HOME/bin:$GOBIN:$PATH
