@@ -24,4 +24,4 @@
 	url = https://github.com/editorconfig/editorconfig-vim
 [submodule "vim/pack/plugins/start/vim-javascript"]
 	path = vim/pack/plugins/start/vim-javascript
-	url = git@github.com:pangloss/vim-javascript.git
+	url = https://github.com/pangloss/vim-javascript
