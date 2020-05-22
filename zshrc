@@ -32,4 +32,6 @@ fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
 
+source $HOME/.bashrc
+source $HOME/.bash_profile
 source $HOME/.secrets
