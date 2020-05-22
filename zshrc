@@ -27,4 +27,9 @@ export TERM=screen-256color
 # perl-style regex <3
 alias grep="grep -P"
 
+# Pure prompt
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
 source $HOME/.secrets
