@@ -26,6 +26,8 @@ export TERM=screen-256color
 
 # perl-style regex <3
 alias grep="grep -P"
+# Silver Searcher instead of ack
+alias ack="ag"
 
 # Pure prompt
 fpath+=$HOME/.zsh/pure
