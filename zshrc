@@ -13,6 +13,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+autoload -Uz bashcompinit
+bashcompinit
+
 bindkey '^R' history-incremental-search-backward
 
 export GOPATH=$HOME/go
