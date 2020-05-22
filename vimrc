@@ -29,5 +29,7 @@ set shortmess=atI                                " avoid 'Hit ENTER to continue'
 set tabstop=2 shiftwidth=2 expandtab             " fight me
 set smartindent
 
+let g:go_fmt_command = "goimports"               " hand formatting control off
+
 syntax on
 colorscheme distinguished
