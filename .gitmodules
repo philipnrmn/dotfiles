@@ -28,3 +28,6 @@
 [submodule "zsh/pure"]
 	path = zsh/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "vim/pack/plugins/start/vim-puppet"]
+	path = vim/pack/plugins/start/vim-puppet
+	url = git://github.com/rodjek/vim-puppet.git
