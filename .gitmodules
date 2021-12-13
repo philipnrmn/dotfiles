@@ -37,3 +37,6 @@
 [submodule "vim/pack/plugins/start/typescript-vim"]
 	path = vim/pack/plugins/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim
+[submodule "vim/pack/plugins/opt/rust.vim"]
+	path = vim/pack/plugins/opt/rust.vim
+	url = https://github.com/rust-lang/rust.vim
