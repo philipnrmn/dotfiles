@@ -11,7 +11,7 @@
 	path = vim/pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
 [submodule "vim/pack/plugins/opt/nerdtree"]
-	path = vim/pack/plugins/opt/nerdtree
+	path = vim/pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
 [submodule "vim/pack/plugins/start/minibufexpl.vim"]
 	path = vim/pack/plugins/start/minibufexpl.vim
