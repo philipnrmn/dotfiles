@@ -34,6 +34,9 @@ fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
 
+# fzf keybindings (ctrl+r, ctrl+t)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 source $HOME/.bashrc
 source $HOME/.bash_profile
 source $HOME/.secrets
