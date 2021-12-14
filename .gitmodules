@@ -40,3 +40,6 @@
 [submodule "vim/pack/plugins/opt/rust.vim"]
 	path = vim/pack/plugins/opt/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule "vim/pack/plugins/start/vim-airline-themes"]
+	path = vim/pack/plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
