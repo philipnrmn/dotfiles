@@ -21,6 +21,7 @@ bindkey '^R' history-incremental-search-backward
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$HOME/bin:$GOBIN:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 # avoid complaints with tmux + vim
 export TERM=screen-256color
 
