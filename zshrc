@@ -26,7 +26,7 @@ export PATH=$HOME/.cargo/bin:$PATH
 export TERM=screen-256color
 
 # perl-style regex <3
-alias grep="grep -P"
+# alias grep="grep -P"
 # Silver Searcher instead of ack
 alias ack="ag"
 
