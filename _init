@@ -4,3 +4,5 @@ git submodule init
 git submodule update --recursive
 
 touch $HOME/.secrets
+
+sudo usermod -s "$(which zsh)" "$USER"
