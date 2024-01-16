@@ -43,3 +43,6 @@
 [submodule "vim/pack/plugins/start/vim-airline-themes"]
 	path = vim/pack/plugins/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/pack/plugins/start/copilot.vim"]
+	path = vim/pack/plugins/start/copilot.vim
+	url = https://github.com/github/copilot.vim.git
