@@ -30,6 +30,7 @@ export TERM=screen-256color
 # alias grep="grep -P"
 # Silver Searcher instead of ack
 alias ack="ag"
+alias vim="nvim"
 
 # Pure prompt
 fpath+=$HOME/.zsh/pure

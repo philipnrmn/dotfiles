@@ -5,7 +5,9 @@ filetype plugin on                               " plugins though
 set wildmenu
 set wildignore+=*.swp,*.so,*.zip
 
-set esckeys                                      " cursor keys
+if !has('nvim')
+    set esckeys                                  " cursor keys
+endif
 set ttyfast                                      " scroll like you mean it
 
 set colorcolumn=120
