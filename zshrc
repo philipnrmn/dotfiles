@@ -40,4 +40,7 @@ prompt pure
 # fzf keybindings (ctrl+r, ctrl+t)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 source $HOME/.secrets
