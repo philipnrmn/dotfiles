@@ -32,6 +32,24 @@ export TERM=screen-256color
 alias ack="ag --noaffinity"
 alias vim="nvim"
 
+# k8s shortcuts
+alias k="kubectl"
+alias kg="kubectl get"
+alias kgp="kubectl get pods -o wide"
+alias kgs="kubectl get svc -o wide"
+alias kgn="kubectl get nodes -o wide"
+alias kdp="kubectl describe pods"
+alias kds="kubectl describe svc"
+alias kdn="kubectl describe nodes"
+alias krm="kubectl delete"
+alias krmf="kubectl delete -f"
+alias kaf="kubectl apply -f"
+alias klo="kubectl logs -f"
+alias kex="kubectl exec -it"
+alias kctx="kubectl config use-context"
+alias kctxs="kubectl config get-contexts"
+alias kctxc="kubectl config current-context"
+
 # Pure prompt
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
