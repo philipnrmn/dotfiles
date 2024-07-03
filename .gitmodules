@@ -49,3 +49,42 @@
 [submodule "vim/pack/plugins/opt/vim-hardmode"]
 	path = vim/pack/plugins/opt/vim-hardmode
 	url = https://github.com/dusans/vim-hardmode
+[submodule "config/nvim/pack/nvim/start/barbar.nvim"]
+	path = config/nvim/pack/nvim/start/barbar.nvim
+	url = https://github.com/romgrk/barbar.nvim.git
+[submodule "config/nvim/pack/nvim/start/copilot.vim"]
+	path = config/nvim/pack/nvim/start/copilot.vim
+	url = https://github.com/github/copilot.vim.git
+[submodule "config/nvim/pack/nvim/start/diffview.nvim"]
+	path = config/nvim/pack/nvim/start/diffview.nvim
+	url = https://github.com/sindrets/diffview.nvim.git
+[submodule "config/nvim/pack/nvim/start/fzf-lua"]
+	path = config/nvim/pack/nvim/start/fzf-lua
+	url = https://github.com/ibhagwan/fzf-lua.git
+[submodule "config/nvim/pack/nvim/start/gitsigns.nvim"]
+	path = config/nvim/pack/nvim/start/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "config/nvim/pack/nvim/start/lualine.nvim"]
+	path = config/nvim/pack/nvim/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "config/nvim/pack/nvim/start/neogit"]
+	path = config/nvim/pack/nvim/start/neogit
+	url = https://github.com/NeogitOrg/neogit.git
+[submodule "config/nvim/pack/nvim/start/nvim-lspconfig"]
+	path = config/nvim/pack/nvim/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "config/nvim/pack/nvim/start/nvim-tree.lua"]
+	path = config/nvim/pack/nvim/start/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua.git
+[submodule "config/nvim/pack/nvim/start/nvim-web-devicons"]
+	path = config/nvim/pack/nvim/start/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
+[submodule "config/nvim/pack/nvim/start/plenary.nvim"]
+	path = config/nvim/pack/nvim/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "config/nvim/pack/nvim/start/typescript-tools.nvim"]
+	path = config/nvim/pack/nvim/start/typescript-tools.nvim
+	url = https://github.com/pmizio/typescript-tools.nvim.git
+[submodule "config/nvim/pack/nvim/start/vim-distinguished"]
+	path = config/nvim/pack/nvim/start/vim-distinguished
+	url = https://github.com/Lokaltog/vim-distinguished.git
