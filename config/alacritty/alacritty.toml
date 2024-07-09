@@ -1,0 +1,4 @@
+[font]
+# Normal font style
+normal = { family = "MesloLGM Nerd Font", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
+
