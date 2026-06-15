@@ -2,3 +2,8 @@
 # Normal font style
 normal = { family = "MesloLGM Nerd Font", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
 
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001b\r"
