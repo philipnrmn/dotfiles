@@ -44,11 +44,23 @@ vim.cmd 'colorscheme distinguished'
 -- Set these according to updated Neovim practices or personal preferences
 require("nvim-web-devicons").setup()
 require('lualine').setup()
-require 'lspconfig'.pyright.setup {}
 require('neogit').setup {}
 require('gitsigns').setup()
 require("nvim-tree").setup()
 require('barbar').setup()
+
+local lspconfig = require('lspconfig')
+lspconfig.pyright.setup({})
+lspconfig.gopls.setup({
+  settings = {
+    gopls = {
+      analyses = { unusedparams = true },
+      staticcheck = true,
+      usePlaceholders = true,
+      completeUnimported = true,
+    },
+  },
+})
 
 vim.keymap.set("n", "<c-P>",
   "<cmd>lua require('fzf-lua').files()<CR>", { silent = true })
